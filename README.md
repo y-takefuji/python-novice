@@ -443,7 +443,7 @@ plt.close()
 <pre>
 co2_v2.png image file should be created.
 </pre>
-<img src="https://github.com/ytakefuji/global-warming/blob/master/co2_v2.png" height=200 width=400>
+<img src="https://github.com/y-takefuji/global-warming/blob/master/co2_v2.png" height=200 width=400>
 <pre>
 You should download the weekly dataset from the following site:
 ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_weekly_mlo.txt

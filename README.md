@@ -1,4 +1,4 @@
-# python novice for machine learning 
+# python novice for machine learning
 <pre>
 The goal of this repository entitled "python-novice" is for 
 novice programmers or students at Musashino University to learn the basic 

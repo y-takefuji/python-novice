@@ -96,15 +96,14 @@ Therefore, all explanations are based on Python 3.X.
 In order to install Python, use miniconda.
 https://docs.conda.io/en/latest/miniconda.html
 
-On Windows, install ubuntu 20.04 or 22.04 using Microsoft Store, download Linux installer 
-Python3.8 .sh file, not exe file. And install it.
-HINT: Start bash ubuntu on Windows and download miniconda .sh file by wget command 
-      with linked URL address.
+On Windows, install ubuntu 20.04 or 22.04 using Microsoft Store, download Windows installer 
+Python3.8  .sh file. And install it. You may need wsl installation.
+HINT: Download miniconda .sh file by wget command with linked URL address.
 HINT: If wget command is not available, install it by apt command: 
 $ sudo apt install wget
-$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+$ wget https://repo.anaconda.com/miniconda/Miniconda3-XXX-Linux-x86_64.sh
 
-On Mac, download MacOSX installer Python3.7 .sh file. 
+On Mac, download MacOSX installer Python3.8 .sh file. 
 Hint:xcode-select --install
 Hint:curl -O https://raw.githubusercontent.com/Homebrew/install/master/install.sh
 Hint:./install.sh
@@ -134,11 +133,11 @@ All examples in python-novice can be practiced on bash shell.
 For Windows users, you should download VcXsrv Windows X Server exe file and install it.
 https://sourceforge.net/projects/vcxsrv/
 
-Don't forget the DISPLAY setting.
+Don't forget the DISPLAY setting on Windows.
 export DISPLAY=localhost:0
 
 For WSL on Windows11, install Ubuntu through Microsoft store, reboot with update, run powershell with administrator's priviledge.
-Then, run "wsl --install -d Ubuntu" on the powershell terminal.
+Then, run "wsl --install -d UbuntuXXX" on the powershell terminal.
 
 For Mac users, you should install XQuartz.
 

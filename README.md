@@ -90,14 +90,14 @@ $ dist/prin
 </pre>
 
 # Python2.X and Python3.X
-
+<pre>
 There are Python 2.X and 3.X. Python 2.X will be obsolete. 
 Therefore, all explanations are based on Python 3.X.
 In order to install Python, use miniconda.
 https://docs.conda.io/en/latest/miniconda.html
 
-On Windows, install ubuntu 20.04 or 18.04 using Microsoft Store, download Linux installer 
-Python3.7 .sh file, not exe file. And install it.
+On Windows, install ubuntu 20.04 or 22.04 using Microsoft Store, download Linux installer 
+Python3.8 .sh file, not exe file. And install it.
 HINT: Start bash ubuntu on Windows and download miniconda .sh file by wget command 
       with linked URL address.
 HINT: If wget command is not available, install it by apt command: 
@@ -112,7 +112,7 @@ Hint:brew update
 Hint:brew upgrade
 Hint:brew install xxx (package name)
 Hint:brew cleanup
-<pre>
+
 $ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 # if wget is not available, follow the instructions:
 # Install Homebrew: 
@@ -133,6 +133,9 @@ $ bash Miniconda3-latest-*
 All examples in python-novice can be practiced on bash shell.
 For Windows users, you should download VcXsrv Windows X Server exe file and install it.
 https://sourceforge.net/projects/vcxsrv/
+
+Don't forget the DISPLAY setting.
+export DISPLAY=localhost:0
 
 For WSL on Windows11, install Ubuntu through Microsoft store, reboot with update, run powershell with administrator's priviledge.
 Then, run "wsl --install -d Ubuntu" on the powershell terminal.

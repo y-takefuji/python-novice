@@ -457,6 +457,14 @@ You should plot a graph with x-axis(year_month_day) and y-axis(co2) using co2w.t
 ASSIGNMENT: 
 Build the same program based on Python2.X.
 
+<br>
+ASSIGNMENT:
+Show how to remove duplicated instances from test.csv.
+
+Hint:
+data=pd.read_csv('test.csv',low_memory=False)
+data=data.drop_duplicates()
+
 </pre>
 
 ============================================

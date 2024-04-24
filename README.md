@@ -463,7 +463,7 @@ Show how to remove duplicated instances from test.csv.
 
 Hint:
 data=pd.read_csv('test.csv',low_memory=False)
-data=data.drop_duplicates()
+Use drop_duplicates() function for data.
 
 </pre>
 

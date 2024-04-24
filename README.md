@@ -324,7 +324,7 @@ Out[8]: ['takefuji', 'fujisan']
 
 <pre>
 # download ice.csv from 
-http://web.sfc.keio.ac.jp/~takefuji/ice.csv
+http://neuro.musashino-u.ac.jp/~takefuji/ice.csv
 # ice.csv is composed of 4 columns and 31 instances: date,ice,temp,street
 </pre>
 
@@ -374,7 +374,7 @@ http://web.sfc.keio.ac.jp/~takefuji/ice.csv
 <pre>
 # read csv file co2_v2.txt which should be in the same folder
 # download cov2_v2.txt file from 
-# https://raw.githubusercontent.com/ytakefuji/global-warming/master/co2_v2.txt
+# https://raw.githubusercontent.com/y-takefuji/global-warming/master/co2_v2.txt
 # run the following command in ipython
 co2=open('co2_v2.txt','r',encoding='utf-8')
 # comment by #

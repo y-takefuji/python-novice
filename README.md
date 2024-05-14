@@ -139,7 +139,7 @@ wsl --update
 **
 </pre>
 
-<OLD INFORMATION>---------------------
+----------<OLD INFORMATION>-----------
 
 For Windows users, you should download VcXsrv Windows X Server exe file and install it.
 https://sourceforge.net/projects/vcxsrv/
@@ -151,7 +151,7 @@ Then, run "wsl --install -d UbuntuXXX" on the powershell terminal.
 
 For Mac users, you should install XQuartz.
 
-<OLD INFORMATION>---------------------
+----------<OLD INFORMATION>-----------
 
 <pre>
 # before running your conda, pip, python, or ipython, run source command for correcting 

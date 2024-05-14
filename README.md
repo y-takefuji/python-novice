@@ -130,9 +130,16 @@ $ bash Miniconda3-latest-*
 
 # X server on Windows or MacOS
 All examples in python-novice can be practiced on bash shell.
+For Windows users:
+
+**Run the following commands on powershell:
+bcdedit /set hypervisorlaunchtype auto
+wsl --update
+**
+<OLD INFORMATION>---------------------
+
 For Windows users, you should download VcXsrv Windows X Server exe file and install it.
 https://sourceforge.net/projects/vcxsrv/
-
 Don't forget the DISPLAY setting on Windows.
 export DISPLAY=localhost:0
 
@@ -140,6 +147,8 @@ For WSL on Windows11, install Ubuntu through Microsoft store, reboot with update
 Then, run "wsl --install -d UbuntuXXX" on the powershell terminal.
 
 For Mac users, you should install XQuartz.
+
+<OLD INFORMATION>---------------------
 
 <pre>
 # before running your conda, pip, python, or ipython, run source command for correcting 

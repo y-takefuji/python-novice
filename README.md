@@ -96,7 +96,7 @@ Therefore, all explanations are based on Python 3.X.
 In order to install Python, use miniconda.
 https://docs.conda.io/en/latest/miniconda.html
 
-On Windows, install ubuntu 20.04 or 22.04 using Microsoft Store, download Windows installer 
+On Windows, install ubuntu 22.04 or 24.04 using Microsoft Store, download Windows installer 
 Python3.8  .sh file. And install it. You may need wsl installation.
 HINT: Download miniconda .sh file by wget command with linked URL address.
 HINT: If wget command is not available, install it by apt command: 
@@ -129,6 +129,7 @@ $ bash Miniconda3-latest-*
 </pre>
 
 # X server on Windows or MacOS
+<pre>
 All examples in python-novice can be practiced on bash shell.
 For Windows users:
 
@@ -136,6 +137,8 @@ For Windows users:
 bcdedit /set hypervisorlaunchtype auto
 wsl --update
 **
+</pre>
+
 <OLD INFORMATION>---------------------
 
 For Windows users, you should download VcXsrv Windows X Server exe file and install it.

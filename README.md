@@ -133,9 +133,9 @@ $ bash Miniconda3-latest-*
 All examples in python-novice can be practiced on bash shell.
 For Windows users: You don't need to install X server on Windows! 
                    WSL can take care of X server.
-
+For MacOS users: You don't need to install X server anymore.
     
-**Run the following commands on powershell:
+**Run the following superuser commands on powershell:
 wsl --install
 wsl --update
 bcdedit /set hypervisorlaunchtype auto

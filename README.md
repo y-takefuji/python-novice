@@ -135,7 +135,7 @@ For Windows users: You don't need to install X server on Windows!
                    WSL can take care of X server.
 For MacOS users: You don't need to install X server anymore.
     
-**Run the following superuser commands on powershell:
+**Run the following superuser commands on powershell of Windows:
 wsl --install
 wsl --update
 bcdedit /set hypervisorlaunchtype auto
